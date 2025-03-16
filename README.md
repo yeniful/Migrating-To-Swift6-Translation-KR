@@ -45,7 +45,7 @@ Swift 6 언어 모드를 활성화하여 코드에 데이터 경합이 없도록
 5. **흔한 컴파일러 에러 (Common Compiler Errors)**  
 Swift Concurrency로 작업하면서 발생할 수 있는 흔한 문제를 파악하고, 이해하고, 해결하기
 6. **점진적인 채택 (Incremental Adoption)**  
-Learn how you can introduce Swift concurrency features into your project incrementally.
+프로젝트에 Swift 동시성 기능을 점진적으로 도입하는 방법 배우기
 7. **소스 호환성 (Source Compatibility)**  
 잠재적인 소스 호환성 문제에 대한 개요 보기
 8. **라이브러리 진화 (Library Evolution)**  
