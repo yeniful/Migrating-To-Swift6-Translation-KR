@@ -34,23 +34,23 @@ Swift 6 언어 모드는 옵트인(opt-in)입니다. 기존 프로젝트에서 �
 자세한 정보는 기여 문서를 참조하세요.
 
 ## 주제 (Topics)
-1. **데이터 경쟁으로부터 안전하게 (Data Race Safety)**  
+1. [**데이터 경쟁으로부터 안전하게 (Data Race Safety)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/DataRaceSafety.md)  
 데이터 경쟁 없는(data-race-free) 동시 코드를 위한 Swift 기본 개념에 대해서 알아보기
-2. **마이그레이션 전략 (Migration Strategy)**  
+3. [**마이그레이션 전략 (Migration Strategy)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/MigrationStrategy.md)  
 프로젝트를 Swift 6 언어 모드로 마이그레이션하기 시작하기
-3. **완전한 동시성 검사 활성화 (Enabling Complete Concurrency Checking)**  
+4. [**완전한 동시성 검사 활성화 (Enabling Complete Concurrency Checking)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/EnablingCompleteConcurrencyChecking.md)  
 프로젝트에서 경고로 진단을 하도록 활성화해서 데이터 경쟁 안전 문제를 점차적으로 해결하기
-4. **동시성 확인 (Enabling The Swift 6 Language Mode)**  
+5. [**동시성 확인 (Enabling The Swift 6 Language Mode)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/EnablingTheSwift6LanguageMode.md)  
 Swift 6 언어 모드를 활성화하여 코드에 데이터 경합이 없도록 보장하기
-5. **흔한 컴파일러 에러 (Common Compiler Errors)**  
+6. [**흔한 컴파일러 에러 (Common Compiler Errors)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/CommonCompilerErrors.md)  
 Swift Concurrency로 작업하면서 발생할 수 있는 흔한 문제를 파악하고, 이해하고, 해결하기
-6. **점진적인 채택 (Incremental Adoption)**  
+7. [**점진적인 채택 (Incremental Adoption)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/IncrementalAdoption.md)  
 프로젝트에 Swift 동시성 기능을 점진적으로 도입하는 방법 배우기
-7. **소스 호환성 (Source Compatibility)**  
+8. [**소스 호환성 (Source Compatibility)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/SourceCompatibility.md)  
 잠재적인 소스 호환성 문제에 대한 개요 보기
-8. **라이브러리 진화 (Library Evolution)**  
+9. [**라이브러리 진화 (Library Evolution)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/LibraryEvolution.md)  
 소스 및 ABI 호환성을 유지하면서 동시성을 위해 라이브러리 API에 대해 설명
 
 ## 심도있는 Swift 동시성 (Swift Concurrency in Depth)
-8. **런타임 특성 (Runtime Behavior)**  
+8. [**런타임 특성 (Runtime Behavior)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/RuntimeBehavior.md)  
 동시성 런타임 의미 체계가 다른 런타임들과 어떻게 다른지 알아보고, 실행 의미 체계 측면에서 비슷한 최종 결과를 얻기 위해 일반적인 패턴에 익숙해지기
