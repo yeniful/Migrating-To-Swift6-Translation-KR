@@ -44,6 +44,6 @@ Swift 6 언어 모드를 설정한 타깃들은 전체 검사가 무조건 활�
 ## Xcode로 하는 방법 (Using Xcode)
 Xcode 프로젝트에서 전체 동시성 검사를 활성화하려면 Xcode 빌드 설정에서 "엄격한 동시성 검사(Strict Concurrency Checking)" 설정을 "전체(Complete)"로 설정합니다. 혹은 xcconfig 파일에서 `SWIFT_STRICT_CONCURRENCY`를 complete로 설정하는 방법도 가능합니다.
 ```
-// In a Settings.xcconfig
+// Settings.xcconfig에서
 SWIFT_STRICT_CONCURRENCY = complete;
 ```
