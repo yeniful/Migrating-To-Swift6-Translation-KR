@@ -13,7 +13,7 @@ Swift 6 언어 모드의 데이터 경쟁 방지는 점차적인 마이그레이
 
 ## Swift PM으로 하는 방법 (Using SwiftPM)
 ### SwiftPM 커맨드 라인에서 하는 법 (In a SwiftPM command-line invocation)
-Swift 패키지 관리자(SPM, Swift Package Manager)의 커맨트 라인에서 `-Xswiftc` 플래그를 통해 `-strict-concurrency=complete`를 사용할 수 있습니다.:
+Swift 패키지 관리자(SPM, Swift Package Manager)의 커맨드라인에서 `-Xswiftc` 플래그를 통해 `-strict-concurrency=complete`를 사용할 수 있습니다.:
 ```
 ~ swift build -Xswiftc -strict-concurrency=complete
 ~ swift test -Xswiftc -strict-concurrency=complete
