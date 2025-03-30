@@ -54,3 +54,25 @@ Swift Concurrency로 작업하면서 발생할 수 있는 흔한 문제를 파�
 ## 심도있는 Swift 동시성 (Swift Concurrency in Depth)
 8. [**런타임 특성 (Runtime Behavior)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/RuntimeBehavior.md)  
 동시성 런타임 의미 체계가 다른 런타임들과 어떻게 다른지 알아보고, 실행 의미 체계 측면에서 비슷한 최종 결과를 얻기 위해 일반적인 패턴에 익숙해지기
+
+
+## 기여 (Contribution)
+<table>
+  <tr height="150px">
+  <td align="center">
+    <a href="https://github.com/kangddong"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/50406861?v=4"/></a>
+    <br/>
+    <a href="https://github.com/kangddong">kangddong</a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/applebuddy"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/4410021?v=4"/></a>
+    <br/>
+    <a href="https://github.com/applebuddy">apple buddy</a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/yeniful"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/77262576?v=4"/></a>
+    <br />
+    <a href="https://github.com/yeniful">yeniful</a>
+  </td>
+  </tr>
+</table>
