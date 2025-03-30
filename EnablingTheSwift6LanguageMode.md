@@ -1,4 +1,4 @@
-# Swift 6 언어 모드를 활성화 (Enabling The Swift 6 Language Mode)
+# Swift 6 언어 모드 활성화 (Enabling The Swift 6 Language Mode)
 ##### Swift 6 언어 모드를 활성화하여 코드에 데이터 경합이 없도록 합니다.
 
 ## Swift 컴파일러로 하는 방법 (Using the Swift compiler)
