@@ -60,14 +60,14 @@ Swift Concurrency로 작업하면서 발생할 수 있는 흔한 문제를 파�
 <table>
   <tr height="150px">
   <td align="center">
+    <a href="https://github.com/applebuddy"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/4410021?v=4"/></a>
+    <br/>
+    <a href="https://github.com/applebuddy">Applebuddy</a>
+  </td>
+  <td align="center">
     <a href="https://github.com/kangddong"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/50406861?v=4"/></a>
     <br/>
     <a href="https://github.com/kangddong">kangddong</a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/applebuddy"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/4410021?v=4"/></a>
-    <br/>
-    <a href="https://github.com/applebuddy">apple buddy</a>
   </td>
   <td align="center">
     <a href="https://github.com/yeniful"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/77262576?v=4"/></a>
