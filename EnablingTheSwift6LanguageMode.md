@@ -9,7 +9,7 @@
 
 ## Swift PM으로 하는 방법 (Using SwiftPM)
 ### 커맨드 라인에서 호츌 (Command-line invocation)
-Swift 패키지 관리자(SPM, Swift Package Manager)의 커맨트 라인에서 `-Xswiftc flag` 플래그를 통해 `-swift-version 6`를 사용할 수 있습니다.:
+Swift 패키지 관리자(SPM, Swift Package Manager)의 커맨드 라인에서 `-Xswiftc flag` 플래그를 통해 `-swift-version 6`를 사용할 수 있습니다.:
 ```
 ~ swift build -Xswiftc -swift-version -Xswiftc 6
 ~ swift test -Xswiftc -swift-version -Xswiftc 6
