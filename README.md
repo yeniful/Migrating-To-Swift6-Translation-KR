@@ -40,7 +40,7 @@ Swift 6 언어 모드는 옵트인(opt-in)입니다. 기존 프로젝트에서 �
 프로젝트를 Swift 6 언어 모드로 마이그레이션하기 시작하기
 4. [**완전한 동시성 검사 활성화 (Enabling Complete Concurrency Checking)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/EnablingCompleteConcurrencyChecking.md)  
 프로젝트에서 경고로 진단을 하도록 활성화해서 데이터 경쟁 안전 문제를 점차적으로 해결하기
-5. [**동시성 확인 (Enabling The Swift 6 Language Mode)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/EnablingTheSwift6LanguageMode.md)  
+5. [**Swift 6 언어 모드 활성화 (Enabling The Swift 6 Language Mode)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/EnablingTheSwift6LanguageMode.md)  
 Swift 6 언어 모드를 활성화하여 코드에 데이터 경합이 없도록 보장하기
 6. [**흔한 컴파일러 에러 (Common Compiler Errors)**](https://github.com/yeniful/Migrating-To-Swift6-Translation-KR/blob/main/CommonCompilerErrors.md)  
 Swift Concurrency로 작업하면서 발생할 수 있는 흔한 문제를 파악하고, 이해하고, 해결하기
