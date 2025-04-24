@@ -41,7 +41,7 @@ await updateStyle(backgroundColor: color)
 // 스타일이 업데이트되었습니다
 ```
 
-withCheckedContinuation 함수는 비동기가 아닌 코드 혹은 비동기 코드를 인터페이스할 수 있도록 존재하는 [표준 라이브러리 API 제품군]([suite of standard library APIs](https://developer.apple.com/documentation/swift/concurrency#continuations)) 중 하나입니다.
+withCheckedContinuation 함수는 동기, 비동기 코드를 인터페이스할 수 있도록 존재하는 [표준 라이브러리 API 제품군]([suite of standard library APIs](https://developer.apple.com/documentation/swift/concurrency#continuations)) 중 하나입니다.
 
 > 참고
 > 프로젝트에 비동기 코드를 도입하면 데이터 격리 검사 위반 사항을 표면화할 수 있습니다. 이러한 문제를 이해하고 해결하려면 [격리 경계를 넘나들기]([Crossing Isolation Boundaries](https://www.swift.org/migration/documentation/swift-6-concurrency-migration-guide/incrementaladoption/commonproblems#Crossing-Isolation-Boundaries)) 를 참조하세요.
