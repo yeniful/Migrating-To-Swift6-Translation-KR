@@ -22,3 +22,27 @@ static이라는 용어는 런타임 상태의 영향을 받지 않는 프로그�
 
 > 노트  
 동적 격리(Dynamic isolation)사용에 대한 자세한 내용은 동적 격리 문서를 참고하세요.
+
+---
+
+## 격리 영역 (Isolation Domain)
+데이터 격리는 공유되는 변경 가능한 상태(Shared mutable state)를 보호하기 위해 사용되는 메커니즘입니다. 격리마다 독립적인 격리 단위가 존재하는데, 이를 격리 영역 (isolation domain) 이라고 합니다. 각각의 격리 영역이 보호해야 하는 상태의 범위는 매우 다양합니다. 어떤 격리 도메인은 단일 변수만 보호할 수도 있고, 사용자 인터페이스 같은 전체 하위 시스템을 보호할 수도 있습니다.
+
+격리 영역의 중요한 특징은 격리 영역이 만들어주는 안전성입니다. 변경 가능한 상태는 한 번에 하나의 격리 영역에서만 접근할 수 있습니다. 변경 가능한 상태를 한 영역에서 다른 영역으로 전달하는 것은 가능하지만, 여러 영역이 동시에 해당 상태로 접근하는 것은 불가능합니다. 컴파일러는 이러한 동시 접근을 방지합니다.
+
+직접 명시적으로 정의하지 않았더라도, 모든 함수와 변수 선언은 잘 정의된 정적(static) 격리 영역을 가지고 있습니다. 이러한 격리 영역들은 항상 다음 세 가지 중 하나에 해당합니다:
+
+1. 격리되지 않음 (Non-isolated)
+2. actor 값에 격리됨 (Isolated to an actor value)
+3. 전역 (Global) actor에 격리됨 (Isolated to a global actor)
+
+### 격리되지 않은 (Non-isolated)
+### Actors
+### 전역 Actor (Global Actors)
+### Tasks
+## 격리 경계 (Isolation Boundaries)
+### Sendable 타입 (Sendable Types)
+### Actor로 격리된 타입 (Actor-Isolated Types)
+### 참조 타입 (Reference Types)
+### Suspension Points
+### 원자성 (Atomicity)
